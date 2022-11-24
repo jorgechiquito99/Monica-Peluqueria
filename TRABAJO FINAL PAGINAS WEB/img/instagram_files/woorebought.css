@@ -1,0 +1,150 @@
+body.toplevel_page_woo-notification {
+	overflow-x: hidden;
+}
+
+#woorebought-popup {
+	border: 0 none;
+	border-radius: 0;
+	bottom: 20px;
+	box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.4);
+	display: none;
+	font-family: tahoma, sans-serif;
+	left: 20px;
+	padding: 0;
+	position: fixed;
+	right: auto !important;
+	text-align: left;
+	top: auto !important;
+	width: auto;
+	z-index: 99999;
+}
+
+#woorebought-popup.bottom_right {
+	left: auto !important;
+	right: 20px !important;
+}
+
+#woorebought-popup.top_right {
+	left: auto !important;
+	right: 20px !important;
+	top: 20px !important;
+	bottom: auto !important;
+}
+
+#woorebought-popup.top_left {
+	left: auto !important;
+	top: 20px !important;
+	bottom: auto !important;
+}
+
+#woorebought-popup img {
+	cursor: pointer;
+	float: left;
+	max-height: 85px;
+	max-width: 85px;
+	width: auto;
+	align-self: center;
+}
+
+#woorebought-popup.img_right img {
+	cursor: pointer;
+	float: right;
+	max-height: 85px;
+	max-width: 120px;
+	width: auto;
+}
+
+#woorebought-popup p {
+	float: left;
+	font-size: 13px;
+	line-height: 20px;
+	margin: 0 0 0 13px;
+	padding: 10px 5px 5px 0;
+	width: auto;
+}
+
+#woorebought-popup p a {
+	color: #000;
+	display: block;
+	font-size: 15px;
+	font-weight: 700;
+	width: 100%;
+	margin: 0;
+}
+
+#woorebought-popup p a:hover {
+	color: #000;
+}
+
+#woorebought-popup p small {
+	display: block;
+	font-size: 10px;
+	margin-bottom: 8px;
+}
+
+#woorebought-popup {
+	padding-right: 25px;
+}
+
+#woorebought-popup.img_right {
+	/*padding: 0;*/
+}
+
+#woorebought-popup #popup-close {
+	background: rgba(0, 0, 0, 0) url("icon/close.png") repeat scroll 0 0 / cover;
+	cursor: pointer;
+	height: 16px;
+	position: absolute;
+	right: 5px;
+	top: 5px;
+	width: 16px;
+}
+
+@media screen and (max-width: 767px) {
+	#woorebought-popup {
+		bottom: 0 !important;
+		box-sizing: border-box;
+		left: 0 !important;
+		top: auto !important;
+		width: 100%;
+		padding: 0;
+	}
+
+	#woorebought-popup img {
+		max-width: 20%;
+	}
+
+	#woorebought-popup a img {
+		max-width: 100%;
+	}
+
+	#woorebought-popup p {
+		font-size: 11px;
+		width: 70%;
+	}
+
+	#woorebought-popup p a {
+		font-size: 13px;
+	}
+
+	#woorebought-popup p small {
+		margin-bottom: 0;
+	}
+}
+
+#woo-notification-audio {
+	display: none;
+}
+
+#woorebought-popup {
+	background-color: #ffffff;
+	color: #0f0f0f;
+}
+
+#woorebought-popup a {
+	color: #0f0f0f;
+}
+/*Non ajax*/
+#woorebought-popup .woorebought-content {
+	display: inline;
+}

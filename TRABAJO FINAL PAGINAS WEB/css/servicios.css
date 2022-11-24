@@ -1,0 +1,115 @@
+#principal
+{
+    
+    height: 2000px;
+    width: 100%;
+    
+}
+#encabezado
+{
+    height: 250px;
+    width: 100%;
+    ;
+}
+.encabezado
+{
+    position:absolute;
+    position: relative;
+    height:250px;
+    width:100%; 
+    z-index: -1;
+}
+.servicios
+{
+    position: absolute;
+    top: 82%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+}
+.servicios>h1
+{
+    font-family: 'Dancing Script', cursive;
+}
+  
+.encabezado1
+  {
+    position:absolute;
+    height:160px;
+    width:20%;
+    left: 40%;
+    top: 20px;
+    border-radius: 50%;
+    border: solid; color: black;
+    z-index: 1;
+}
+#primercajon
+{
+    height: 300px;
+    width: 100%;
+    display: flex;
+}
+.damas
+{
+    height: 300px;
+    width:40% ; 
+}
+
+.damas1
+{
+    height: 230px;
+    width:70% ;
+    margin-top: 10px; 
+    border-radius: 15px;
+     
+   
+}
+#damass
+{
+   width:5% ; 
+   margin: auto;
+}
+#damass>h1
+{
+    font-size: 20px; 
+    font-family: 'Dancing Script', cursive;
+
+}
+.precios
+{
+    height: 300px;
+    width:50% ; 
+    
+ 
+}
+
+.tablas
+{
+    border:double;
+    border-color: black;
+    margin: auto;
+    
+}
+#tercercajon
+{
+    height: 300px;
+    width: 100%;
+    background-color:pink  
+}
+#caballeros>h1
+{
+    font-size: 20px; 
+    font-family: 'Dancing Script', cursive;  
+}
+#caballeros
+{
+   width:5% ; 
+   margin: auto;
+}
+#contactos
+{
+    height: 300px;
+    width: 100%;
+    background-color:pink  
+}
+.damas:hover .damas1 {-webkit-transform:scale(1.3);transform:scale(1.3);}
+.damas {overflow:hidden;}

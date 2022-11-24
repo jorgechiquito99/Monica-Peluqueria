@@ -1,0 +1,31 @@
+.imageswatch-variation {
+	display: inline-block;
+	float: left;
+	margin-right: 10px;
+}
+
+.imageswatch-variation:last-child {
+	margin-right: 0;
+}
+
+.imageswatch-variation span {
+	border: 1px solid #ebebeb;
+	width: 35px;
+	height: 35px;
+	display: inline-block;
+	overflow: hidden;
+}
+
+/* imageswatch-product-variation */
+.imageswatch-product-variation {
+	display: inline-block;
+}
+
+.imageswatch-product-variation a {
+	border-radius: 50%;
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	overflow: hidden;
+	margin: 0 5px 0 0;
+}
