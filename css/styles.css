@@ -104,6 +104,12 @@
     background-color: #999595;
     text-align: center;
 }
+.cajabot h1
+{
+    font-size: 40px;
+    color: black;
+    font-family: 'Dancing Script', cursive;    
+}
 
 #complete
 {
