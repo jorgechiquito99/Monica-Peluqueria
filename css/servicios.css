@@ -1,0 +1,852 @@
+#principal
+{  
+    height: 2100px;
+    width: 100%;  
+}
+#principal1
+{  
+    height: 1700px;
+    width: 100%;  
+}
+#principal2
+{  
+    height: 1000px;
+    width: 100%;  
+}
+#encabezado
+{
+    height: 250px;
+    width: 100%;
+}
+.encabezado
+{
+    position:absolute;
+    position: relative;
+    height:250px;
+    width:100%; 
+    z-index: -1;
+}
+.servicios
+{
+    position: absolute;
+    top: 82%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+}
+.servicios>h1
+{
+    font-family: 'Dancing Script', cursive;
+    color: black;
+} 
+.encabezado1
+  {
+    position:absolute;
+    height:160px;
+    width:20%;
+    left: 40%;
+    top: 20px;
+    border-radius: 50%;
+    border: solid; color: black;
+    z-index: 1;
+}
+#primercajon
+{
+    height: 1000px;
+    width: 100%;   
+}
+
+#uno
+{
+    height: 500px;
+    width: 100%;
+    display: flex;
+}
+#dos
+{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    
+}
+#servicios
+{
+    height: 500px;
+    width: 33%;
+}
+#productos
+{
+    height: 300px;
+    width:25% ;
+    
+}
+.figura1
+{
+    display: grid;
+    grid-template: 1fr/1fr;
+    grid-template-areas:"img";
+    width: 100%;
+    height:490px;
+}
+.servicios1
+{
+    width:90%;
+    height: 490px;
+    margin-left: 5%;
+    border-radius:10% ;
+    object-fit: cover;
+    grid-area: img;
+    box-shadow: 0px 0px 5px 1px black;
+}
+.productos1
+{
+    width:90%;
+    height: 290px;
+    margin-left: 5%;
+    border-radius:10% ;
+    object-fit: cover;
+    grid-area: img;
+    box-shadow: 0px 0px 5px 1px black; 
+}
+.figur1
+{
+    display: grid;
+    grid-template: 1fr/1fr;
+    grid-template-areas:"img";
+    width: 100%;
+    height:290px;
+}
+.figur1::after
+{
+    content:"CECADOR";
+    grid-area: img;
+    width:90% ;
+    height: 290px;
+    margin-left: 5%;
+    background-color: rgba(126, 113, 114, 0.66);
+    color: black;
+    border-radius: 10%;
+    font-family: 'Dancing Script', cursive;
+    display: grid;
+    place-items:center;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+    clip-path: circle(0 at top right);
+    transition:clip-path .4s;
+}
+.figur1:hover::after
+{
+    clip-path: circle(150% at top right);
+}
+.figura1::after
+{
+    content:"DAMAS";
+    grid-area: img;
+    width:90% ;
+    height: 490px;
+    margin-left: 5%;
+    background-color: rgba(126, 113, 114, 0.66);
+    color: black;
+    border-radius: 10%;
+    font-family: 'Dancing Script', cursive;
+    display: grid;
+    place-items:center;
+    font-size: 3rem;
+    text-align: center;
+    font-weight: bold;
+    clip-path: circle(0 at top right);
+    transition:clip-path .4s;
+}
+.figura1:hover::after
+{
+    clip-path: circle(150% at top right);
+}
+.figura2
+{
+    display: grid;
+    grid-template: 1fr/1fr;
+    grid-template-areas:"img";
+    width: 100%;
+    height:490px;
+}
+.figura2::after
+{
+    content:"BARBERIA";
+    grid-area: img;
+    width:90% ;
+    height: 490px;
+    margin-left: 5%;
+    background-color: rgba(126, 113, 114, 0.66);
+    color: black;
+    font-family: 'Dancing Script', cursive;
+    border-radius: 10%;
+    display: grid;
+    place-items:center;
+    font-size: 3rem;
+    text-align: center;
+    font-weight: bold;
+    clip-path: circle(0 at top right);
+    transition:clip-path .4s;
+}
+.figura2:hover::after
+{
+    clip-path: circle(150% at top right);
+}
+.figura3
+{
+    display: grid;
+    grid-template: 1fr/1fr;
+    grid-template-areas:"img";
+    width: 100%;
+    height:490px;
+}
+.figura3::after
+{
+    content:"INFANTIL";
+    grid-area: img;
+    width:90% ;
+    height: 490px;
+    margin-left: 5%;
+    background-color: rgba(126, 113, 114, 0.66);
+    color: black;
+    font-family: 'Dancing Script', cursive;
+    border-radius: 10%;
+    display: grid;
+    place-items:center;
+    font-size: 3rem;
+    text-align: center;
+    font-weight: bold;
+    clip-path: circle(0 at top right);
+    transition:clip-path .4s;
+}
+.figura3:hover::after
+{
+    clip-path: circle(150% at top right);
+}
+.figura4
+{
+    display: grid;
+    grid-template: 1fr/1fr;
+    grid-template-areas:"img";
+    width: 100%;
+    height:490px;
+}
+.figura4::after
+{
+    content:"MAQUILLAJE";
+    grid-area: img;
+    width:90% ;
+    height: 490px;
+    margin-left: 5%;
+    background-color: rgba(126, 113, 114, 0.66);
+    color: black;
+    font-family: 'Dancing Script', cursive;
+    border-radius: 10%;
+    display: grid;
+    place-items:center;
+    font-size: 3rem;
+    text-align: center;
+    font-weight: bold;
+    clip-path: circle(0 at top right);
+    transition:clip-path .4s;
+}
+.figura4:hover::after
+{
+    clip-path: circle(150% at top right);
+}
+.figura5
+{
+    display: grid;
+    grid-template: 1fr/1fr;
+    grid-template-areas:"img";
+    width: 100%;
+    height:490px;
+}
+.figura5::after
+{
+    content:"MANICURA-PEDICURA";
+    grid-area: img;
+    width:90% ;
+    height: 490px;
+    margin-left: 5%;
+    background-color: rgba(126, 113, 114, 0.66);
+    color: black;
+    font-family: 'Dancing Script', cursive;
+    border-radius: 10%;
+    display: grid;
+    place-items:center;
+    font-size: 3rem;
+    text-align: center;
+    font-weight: bold;
+    clip-path: circle(0 at top right);
+    transition:clip-path .4s;
+}
+.figura5:hover::after
+{
+    clip-path: circle(150% at top right);
+}
+.figura6
+{
+    display: grid;
+    grid-template: 1fr/1fr;
+    grid-template-areas:"img";
+    width: 100%;
+    height:490px;
+}
+.figura6::after
+{
+    content:"CEJAS Y PESTAÑAS";
+    grid-area: img;
+    width:90% ;
+    height: 490px;
+    margin-left: 5%;
+    background-color: rgba(126, 113, 114, 0.66);
+    color: black;
+    font-family: 'Dancing Script', cursive;
+    border-radius: 10%;
+    display: grid;
+    place-items:center;
+    font-size: 3rem;
+    text-align: center;
+    font-weight: bold;
+    clip-path: circle(0 at top right);
+    transition:clip-path .4s;
+}
+.figura6:hover::after
+{
+    clip-path: circle(150% at top right);
+}
+
+#galeria
+{
+    height: 500px;
+    width: 50%; 
+    margin: auto;
+}
+.d-block
+{
+    height: 500px;
+    width: 100%;  
+    margin-left: 1%;
+}
+#texto
+{
+    height: 300px;
+    width: 70%;
+    margin: auto;
+}
+#texto>p
+{
+    font-family: 'Dancing Script', cursive;
+    font-size: 35px;
+    
+}
+#texto1
+{
+    height: 300px;
+    width: 70%;
+    margin: auto;
+}
+#texto1>p
+{
+    font-family: 'Dancing Script', cursive;
+    font-size:30px;
+    
+}
+#texto2
+{
+    height: 300px;
+    width: 70%;
+    margin: auto;
+}
+#texto2>p
+{
+    font-family: 'Dancing Script', cursive;
+    font-size:30px;
+    
+}
+#listas
+{
+    height: 350px;
+    width: 70%;
+    margin: auto;
+    display: flex;
+}
+#tlistas
+{
+margin-left: 30%;
+}
+p
+{
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;  
+}
+.etiquetajos
+{
+    text-decoration: none;
+}
+.figur2
+{
+    display: grid;
+    grid-template: 1fr/1fr;
+    grid-template-areas:"img";
+    width: 100%;
+    height:290px;
+}
+.figur2::after
+{
+    content:"CEPILLO ALISADOR";
+    grid-area: img;
+    width:90% ;
+    height: 290px;
+    margin-left: 5%;
+    background-color: rgba(126, 113, 114, 0.66);
+    color: black;
+    border-radius: 10%;
+    font-family: 'Dancing Script', cursive;
+    display: grid;
+    place-items:center;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+    clip-path: circle(0 at top right);
+    transition:clip-path .4s;
+}
+.figur2:hover::after
+{
+    clip-path: circle(150% at top right);
+}
+.figur3
+{
+    display: grid;
+    grid-template: 1fr/1fr;
+    grid-template-areas:"img";
+    width: 100%;
+    height:290px;
+}
+.figur3::after
+{
+    content:"TENACILLAS";
+    grid-area: img;
+    width:90% ;
+    height: 290px;
+    margin-left: 5%;
+    background-color: rgba(126, 113, 114, 0.66);
+    color: black;
+    border-radius: 10%;
+    font-family: 'Dancing Script', cursive;
+    display: grid;
+    place-items:center;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+    clip-path: circle(0 at top right);
+    transition:clip-path .4s;
+}
+.figur3:hover::after
+{
+    clip-path: circle(150% at top right);
+}
+.figur4
+{
+    display: grid;
+    grid-template: 1fr/1fr;
+    grid-template-areas:"img";
+    width: 100%;
+    height:290px;
+}
+.figur4::after
+{
+    content:"PLANCHA DE PELO";
+    grid-area: img;
+    width:90% ;
+    height: 290px;
+    margin-left: 5%;
+    background-color: rgba(126, 113, 114, 0.66);
+    color: black;
+    border-radius: 10%;
+    font-family: 'Dancing Script', cursive;
+    display: grid;
+    place-items:center;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+    clip-path: circle(0 at top right);
+    transition:clip-path .4s;
+}
+.figur4:hover::after
+{
+    clip-path: circle(150% at top right);
+}
+.figur5
+{
+    display: grid;
+    grid-template: 1fr/1fr;
+    grid-template-areas:"img";
+    width: 100%;
+    height:290px;
+}
+.figur5::after
+{
+    content:"MAQUINA BARBERIA";
+    grid-area: img;
+    width:90% ;
+    height: 290px;
+    margin-left: 5%;
+    background-color: rgba(126, 113, 114, 0.66);
+    color: black;
+    border-radius: 10%;
+    font-family: 'Dancing Script', cursive;
+    display: grid;
+    place-items:center;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+    clip-path: circle(0 at top right);
+    transition:clip-path .4s;
+}
+.figur5:hover::after
+{
+    clip-path: circle(150% at top right);
+}
+.figur6
+{
+    display: grid;
+    grid-template: 1fr/1fr;
+    grid-template-areas:"img";
+    width: 100%;
+    height:290px;
+}
+.figur6::after
+{
+    content:"ACONDICIONADOR";
+    grid-area: img;
+    width:90% ;
+    height: 290px;
+    margin-left: 5%;
+    background-color: rgba(126, 113, 114, 0.66);
+    color: black;
+    border-radius: 10%;
+    font-family: 'Dancing Script', cursive;
+    display: grid;
+    place-items:center;
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: bold;
+    clip-path: circle(0 at top right);
+    transition:clip-path .4s;
+}
+.figur6:hover::after
+{
+    clip-path: circle(150% at top right);
+}
+.figur7
+{
+    display: grid;
+    grid-template: 1fr/1fr;
+    grid-template-areas:"img";
+    width: 100%;
+    height:290px;
+}
+.figur7::after
+{
+    content:"MASCARILLA";
+    grid-area: img;
+    width:90% ;
+    height: 290px;
+    margin-left: 5%;
+    background-color: rgba(126, 113, 114, 0.66);
+    color: black;
+    border-radius: 10%;
+    font-family: 'Dancing Script', cursive;
+    display: grid;
+    place-items:center;
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: bold;
+    clip-path: circle(0 at top right);
+    transition:clip-path .4s;
+}
+.figur7:hover::after
+{
+    clip-path: circle(150% at top right);
+}
+.figur8
+{
+    display: grid;
+    grid-template: 1fr/1fr;
+    grid-template-areas:"img";
+    width: 100%;
+    height:290px;
+}
+.figur8::after
+{
+    content:"LISO BRASILEÑO";
+    grid-area: img;
+    width:90% ;
+    height: 290px;
+    margin-left: 5%;
+    background-color: rgba(126, 113, 114, 0.66);
+    color: black;
+    border-radius: 10%;
+    font-family: 'Dancing Script', cursive;
+    display: grid;
+    place-items:center;
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: bold;
+    clip-path: circle(0 at top right);
+    transition:clip-path .4s;
+}
+.figur8:hover::after
+{
+    clip-path: circle(150% at top right);
+}
+.figur9
+{
+    display: grid;
+    grid-template: 1fr/1fr;
+    grid-template-areas:"img";
+    width: 100%;
+    height:290px;
+}
+.figur9::after
+{
+    content:"CUBRE CANAS";
+    grid-area: img;
+    width:90% ;
+    height: 290px;
+    margin-left: 5%;
+    background-color: rgba(126, 113, 114, 0.66);
+    color: black;
+    border-radius: 10%;
+    font-family: 'Dancing Script', cursive;
+    display: grid;
+    place-items:center;
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: bold;
+    clip-path: circle(0 at top right);
+    transition:clip-path .4s;
+}
+.figur9:hover::after
+{
+    clip-path: circle(150% at top right);
+}
+.figur10
+{
+    display: grid;
+    grid-template: 1fr/1fr;
+    grid-template-areas:"img";
+    width: 100%;
+    height:290px;
+}
+.figur10::after
+{
+    content:"SHAMPOO";
+    grid-area: img;
+    width:90% ;
+    height: 290px;
+    margin-left: 5%;
+    background-color: rgba(126, 113, 114, 0.66);
+    color: black;
+    border-radius: 10%;
+    font-family: 'Dancing Script', cursive;
+    display: grid;
+    place-items:center;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+    clip-path: circle(0 at top right);
+    transition:clip-path .4s;
+}
+.figur10:hover::after
+{
+    clip-path: circle(150% at top right);
+}
+.figur11
+{
+    display: grid;
+    grid-template: 1fr/1fr;
+    grid-template-areas:"img";
+    width: 100%;
+    height:290px;
+}
+.figur11::after
+{
+    content:"PROTECTOR SOLAR";
+    grid-area: img;
+    width:90% ;
+    height: 290px;
+    margin-left: 5%;
+    background-color: rgba(126, 113, 114, 0.66);
+    color: black;
+    border-radius: 10%;
+    font-family: 'Dancing Script', cursive;
+    display: grid;
+    place-items:center;
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: bold;
+    clip-path: circle(0 at top right);
+    transition:clip-path .4s;
+}
+.figur11:hover::after
+{
+    clip-path: circle(150% at top right);
+}
+.figur12
+{
+    display: grid;
+    grid-template: 1fr/1fr;
+    grid-template-areas:"img";
+    width: 100%;
+    height:290px;
+}
+.figur12::after
+{
+    content:"SERUM";
+    grid-area: img;
+    width:90% ;
+    height: 290px;
+    margin-left: 5%;
+    background-color: rgba(126, 113, 114, 0.66);
+    color: black;
+    border-radius: 10%;
+    font-family: 'Dancing Script', cursive;
+    display: grid;
+    place-items:center;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+    clip-path: circle(0 at top right);
+    transition:clip-path .4s;
+}
+.figur12:hover::after
+{
+    clip-path: circle(150% at top right);
+}
+.figur13
+{
+    display: grid;
+    grid-template: 1fr/1fr;
+    grid-template-areas:"img";
+    width: 100%;
+    height:290px;
+}
+.figur13::after
+{
+    content:"DECOLORANTE";
+    grid-area: img;
+    width:90% ;
+    height: 290px;
+    margin-left: 5%;
+    background-color: rgba(126, 113, 114, 0.66);
+    color: black;
+    border-radius: 10%;
+    font-family: 'Dancing Script', cursive;
+    display: grid;
+    place-items:center;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+    clip-path: circle(0 at top right);
+    transition:clip-path .4s;
+}
+.figur13:hover::after
+{
+    clip-path: circle(150% at top right);
+}
+.figur14
+{
+    display: grid;
+    grid-template: 1fr/1fr;
+    grid-template-areas:"img";
+    width: 100%;
+    height:290px;
+}
+.figur14::after
+{
+    content:"LACA";
+    grid-area: img;
+    width:90% ;
+    height: 290px;
+    margin-left: 5%;
+    background-color: rgba(126, 113, 114, 0.66);
+    color: black;
+    border-radius: 10%;
+    font-family: 'Dancing Script', cursive;
+    display: grid;
+    place-items:center;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+    clip-path: circle(0 at top right);
+    transition:clip-path .4s;
+}
+.figur14:hover::after
+{
+    clip-path: circle(150% at top right);
+}
+.figur15
+{
+    display: grid;
+    grid-template: 1fr/1fr;
+    grid-template-areas:"img";
+    width: 100%;
+    height:290px;
+}
+.figur15::after
+{
+    content:"ESPUMA COLOR";
+    grid-area: img;
+    width:90% ;
+    height: 290px;
+    margin-left: 5%;
+    background-color: rgba(126, 113, 114, 0.66);
+    color: black;
+    border-radius: 10%;
+    font-family: 'Dancing Script', cursive;
+    display: grid;
+    place-items:center;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+    clip-path: circle(0 at top right);
+    transition:clip-path .4s;
+}
+.figur15:hover::after
+{
+    clip-path: circle(150% at top right);
+}
+.figur16
+{
+    display: grid;
+    grid-template: 1fr/1fr;
+    grid-template-areas:"img";
+    width: 100%;
+    height:290px;
+}
+.figur16::after
+{
+    content:"GOMINA/CERA";
+    grid-area: img;
+    width:90% ;
+    height: 290px;
+    margin-left: 5%;
+    background-color: rgba(126, 113, 114, 0.66);
+    color: black;
+    border-radius: 10%;
+    font-family: 'Dancing Script', cursive;
+    display: grid;
+    place-items:center;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+    clip-path: circle(0 at top right);
+    transition:clip-path .4s;
+}
+.figur16:hover::after
+{
+    clip-path: circle(150% at top right);
+}

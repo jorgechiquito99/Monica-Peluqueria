@@ -1,0 +1,369 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+.header{
+    background-color: #999595;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 80px;
+    padding: 5px 5%;
+}
+.header .logo
+{
+    cursor: pointer;
+    order: 1;
+    margin-left: auto;
+}
+.header .logo img
+{
+    height: 70px;
+    width: auto;
+    transition: all 0.3s;
+}
+.header .logo img:hover
+{
+    transform: scale(1.2);
+}
+.header .nav-links
+{
+    list-style: none;
+}
+.header .nav-links li
+{
+    display: inline-block;
+    padding: 0 30px;
+    margin-top: 15px;
+    
+}
+.header .nav-links li:hover
+{
+    transform: scale(1.1);
+}
+.header .nav-links a
+{
+    text-decoration: none;
+    font-size: 27px;
+    color: azure;
+    font-family: 'Dancing Script', cursive;
+}
+.header .nav-links li a:hover
+{
+    color: #F5B7B1;
+}
+
+
+
+
+
+
+
+
+#caja_imagenes
+{
+    width: 100%;
+    height: 600px;
+    margin: 0 auto;
+    display: flex;
+
+}
+#cajaimagenes22
+{
+    
+    height: 600px;
+    margin-left: 25vh;
+    margin-right: 25vh;
+}
+#caja_imagenes div
+{
+    width: 400px;
+
+}
+#caja_imagenes div img
+{
+    text-align: center;
+    object-position: -60px 0px;
+
+}
+
+.social
+{
+    /*las imágenes usadas tienen width de 48px*/
+    width: 40px;
+    position: fixed;
+    top: 70%;
+    right: auto;
+    margin-left: -25px;
+}
+#WS
+{
+    width: 85px;
+    border-radius: 25px;
+}
+#IG
+{
+    width: 75px;
+    border-radius: 25px;
+    margin-left: 5px;
+}
+.cajabot
+{
+    
+    width: 100%;
+    height: 350px;
+    background-color: #999595;
+    text-align: center;
+}
+
+.cajabot h1
+{ 
+    font-size: 50px;
+    color: black;
+    font-family: 'Dancing Script', cursive;
+}
+
+#complete
+{
+    width: 85%;
+    height: 200px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 25px;
+    gap: 1px;
+    text-align: center;
+}
+.boti
+{
+    width: 25%;
+    height: 200px;
+    flex-grow: 1;
+    margin: 0 auto;
+}
+#carouselExampleDark,#cuerpo
+{
+    width: 100%;
+}
+.title
+{
+    font-size: 20px;
+    color: black;
+    font-family: 'Dancing Script', cursive;
+}
+
+
+.bibliografia 
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    background-color:#83e9eb;
+}
+.bibliografia p
+{
+    font-size: 20px;
+    margin: 0 auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: 'Dancing Script', cursive;
+}
+.boti img
+{
+    width:80px ;
+    height: 80px;
+    text-decoration: none;
+}
+a
+{
+    text-decoration: none;
+}
+
+
+
+
+#caja_imagenes1:hover #f1 {-webkit-transform:scale(1.3);transform:scale(1.3);}
+#caja_imagenes1 {overflow:hidden;}
+
+#caja_imagenes2:hover #f2 {-webkit-transform:scale(1.3);transform:scale(1.3);}
+#caja_imagenes2 {overflow:hidden;}
+
+#caja_imagenes3:hover #f3 {-webkit-transform:scale(1.3);transform:scale(1.3);}
+#caja_imagenes3 {overflow:hidden;}
+
+#caja_imagenes4:hover #f4 {-webkit-transform:scale(1.3);transform:scale(1.3);}
+#caja_imagenes4 {overflow:hidden;}
+
+.pachita
+{
+    height: 500px;
+    margin-left: 20vh;
+    margin-right: 20vh;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+.til
+{
+    font-size: 50px;
+    color: black;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    
+    
+}
+.histo
+{
+    font-size:28px;
+    color: black;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    margin-left: 10%;
+    margin-right:10% ;
+}
+#unicax
+{
+    height: 500px;
+    margin-left: 50%;
+    background-color:  rgba(126, 113, 114, 0.66);
+    opacity: 0.9;
+}
+
+.marcadeagua
+{
+    position: relative;
+    left: 45vh;
+    top: 23vh;
+    width: 700px;
+    height: 300px;
+    text-align: center;
+    align-items: center;
+    opacity: 0.8;
+}
+
+
+
+.map
+{
+    height: 480px;
+    margin-left: 20vh;
+    margin-right: 20vh;
+    display: flex;
+    border-radius: 50px;
+
+}
+.mapa iframe
+{
+    width:100%;
+    height:100%;
+    border-radius: 20px;
+
+}
+.fotocasa img
+{
+    width: 100%;
+    height:100%;
+    border-radius: 20px;
+    opacity: 0.8;
+}
+.mapa
+{
+    width: 50%;
+}
+.fotocasa
+{
+    width: 50%;
+}
+
+
+
+.encuentranos
+{
+    height: 230px;
+    margin-left: 20vh;
+    margin-right: 20vh;
+    display: flex;
+
+}
+.encuentranos .izquierda
+{
+    width: 50%;
+
+}
+.encuentranos .derecha
+{
+    width: 50%;
+   
+   
+
+}
+.derecha1
+{
+    width: 90%;
+    background-color: #F5B7B1;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+.encuentranos .izquierda p
+{
+    text-align: center;
+    color: black;
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+}
+.encuentranos .izquierda h1
+{
+    text-align: center;
+    margin-top: 5%;
+    color: black;
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+}
+
+.encuentranos .derecha p
+{
+    text-align: center;
+    color: black;
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+    margin-top: 7%;
+}
+.encuentranos .derecha h1
+{
+    text-align: center;
+    color: black;
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+}
+
+
+
+#listas
+{
+    display: flex;
+
+}
+.listasform
+{
+    width: 50%;
+}
+.formularioo
+{
+
+    width: 50%;
+
+
+}
+.tituloform
+{
+    text-align: center;
+    color: black;
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+}
+
